@@ -33,7 +33,7 @@
         <dependency>
             <groupId>com.github.Steveice10</groupId>
             <artifactId>MCProtocolLib</artifactId>
-            <version>1.17.1-2</version>
+            <version>1.19-1</version>
         </dependency>
 
         <dependency>
