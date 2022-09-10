@@ -16,7 +16,9 @@ public class TranslatorUtils {
         if (gameTypeString.contains("VIEWER")) {
             return GameMode.SPECTATOR;
         }
-
+        else if (gameTypeString.contains("DEFAULT")) {
+            return GameMode.SURVIVAL;
+        }
         return GameMode.valueOf(gameTypeString);
     }
 }
